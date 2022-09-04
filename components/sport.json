@@ -1,0 +1,47 @@
+[
+    {
+        "label": "Football",
+        "value": "Football",
+        "type": "Collective"
+    },
+    {
+        "label": "Tennis",
+        "value": "Tennis",
+        "type": "individual"
+    },
+    {
+        "label": "Basketball",
+        "value": "Basketball",
+        "type": "Collective"
+    },
+    {
+        "label": "Baseball",
+        "value": "Baseball",
+        "type": "Collective"
+    },
+    {
+        "label": "Handball",
+        "value": "Handball",
+        "type": "Collective"
+    },
+    {
+        "label": "Cricket",
+        "value": "Cricket",
+        "type": "Collective"
+    },
+    {
+        "label": "Hockey sur gazon",
+        "value": "Hockey sur gazon",
+        "type": "Collective"
+    },
+    {
+        "label": "Volleyball",
+        "value": "Volleyball",
+        "type": "Collective"
+    },
+    {
+        "label": "Tennis de table",
+        "value": "Tennis de table",
+        "type": "individual"
+    }
+]

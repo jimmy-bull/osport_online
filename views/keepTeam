@@ -1,0 +1,84 @@
+    {/* <Text style={{ alignSelf: "center", color: "gray", color:'black', fontWeight:"bold"}}>
+          Sélectionnez un ou plusieurs sports !
+        </Text>
+        <ScrollView
+          showsHorizontalScrollIndicator={false}
+          horizontal={true}
+          style={{ paddingTop: 10 }}
+        >
+          <View style={{ flexDirection: "row" }}>
+            <View
+              style={{
+                borderWidth: 1,
+                borderColor: "lightgray",
+                padding: 5,
+                borderRadius: 10,
+                width: 80,
+                alignItems: "center",
+                margin: 5,
+              }}
+            >
+              <Text style={{ alignSelf: "center", color: "gray" }}>
+                FootBall
+              </Text>
+            </View>
+            <View
+              style={{
+                borderWidth: 1,
+                borderColor: "lightgray",
+                padding: 5,
+                borderRadius: 10,
+                width: 80,
+                alignItems: "center",
+                margin: 5,
+              }}
+            >
+              <Text style={{ alignSelf: "center", color: "gray" }}>Tennis</Text>
+            </View>
+            <View
+              style={{
+                borderWidth: 1,
+                borderColor: "lightgray",
+                padding: 5,
+                borderRadius: 10,
+                width: 80,
+                alignItems: "center",
+                margin: 5,
+              }}
+            >
+              <Text style={{ alignSelf: "center", color: "gray" }}>
+                Basketball
+              </Text>
+            </View>
+            <View
+              style={{
+                borderWidth: 1,
+                borderColor: "lightgray",
+                padding: 5,
+                borderRadius: 10,
+                width: 80,
+                alignItems: "center",
+                margin: 5,
+              }}
+            >
+              <Text style={{ alignSelf: "center", color: "gray" }}>
+                BaseBall
+              </Text>
+            </View>
+            <View
+              style={{
+                borderWidth: 1,
+                borderColor: "lightgray",
+                padding: 5,
+                borderRadius: 10,
+                width: 80,
+                alignItems: "center",
+                margin: 5,
+              }}
+            >
+              <Text style={{ alignSelf: "center", color: "gray" }}>
+                Handball
+              </Text>
+            </View>
+          </View>
+        </ScrollView> */}

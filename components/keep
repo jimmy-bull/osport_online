@@ -1,0 +1,59 @@
+import { StatusBar } from 'expo-status-bar';
+import Ionicons from '@expo/vector-icons/Ionicons';
+
+import {
+  StyleSheet,
+  View,
+  Dimensions,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  Image,
+  ScrollView,
+  KeyboardAvoidingView,
+  SafeAreaView
+} from 'react-native';
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment } from '../features/counterSlice'
+import { decrement_2, increment_2, incrementByAmount_2 } from '../features/second'
+
+export default function Pages() {
+  const dispatch = useDispatch()
+  const count = useSelector((state) => state.counter.value)
+  const count_2 = useSelector((state) => state.counter_2.value)
+  return (
+    <SafeAreaView>
+      <Text>{count}</Text>
+      <Text>{count_2}</Text>
+      <View style={{ flex: 1 }}>
+        <TouchableOpacity style={styles.btn} onPress={() => dispatch(increment())}>
+          <Text style={{ fontSize: 16, color: "white", fontWeight: 'bold', alignSelf: "center", }}>Connectez-vous</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.btn} onPress={() => dispatch(decrement_2())}>
+          <Text style={{ fontSize: 16, color: "white", fontWeight: 'bold', alignSelf: "center", }}>Connectez-vous</Text>
+        </TouchableOpacity>
+      </View>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  btn: {
+    // flex: 1,
+    marginBottom: 30,
+    backgroundColor: "#4399fe",
+    padding: 15,
+    borderRadius: 10,
+    paddingRight: 20,
+    paddingLeft: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.23,
+    shadowRadius: 2.62,
+
+    elevation: 4,
+  },
+});
